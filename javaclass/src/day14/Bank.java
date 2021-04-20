@@ -16,7 +16,10 @@ public class Bank {
     }
     
     Bank(int clientNumber, String name, String accountNumber, int balance) {
-    	
+    	this.clientNumber = clientNumber;
+    	this.name = name;
+    	this.accountNumber = accountNumber;
+    	this.balance = balance;
     }
 
 	public int getClientNumber() {

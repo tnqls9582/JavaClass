@@ -99,7 +99,7 @@ public class BankMain {
 	    }
 	    
 	    
-	    
+	    scan.close();
 		
 
 	}

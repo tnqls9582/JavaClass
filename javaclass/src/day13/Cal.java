@@ -24,6 +24,7 @@ public class Cal {
 	// 나눗셈 메소드 -> 여기서 스캐너!
 	int division() {
 		Scanner scan = new Scanner(System.in);
+		scan.close();
 		System.out.print("1번숫자 : ");
 	    int num1 = scan.nextInt();
 	    System.out.print("2번숫자 : ");

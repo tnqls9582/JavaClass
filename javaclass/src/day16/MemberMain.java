@@ -61,7 +61,7 @@ public class MemberMain {
 		
 		
 		
-		
+		scan.close();
 		
 		
 		

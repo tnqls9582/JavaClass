@@ -50,14 +50,14 @@ public class BoardMain {
 				boardList = bs.revise(boardList);
 			} else if(select == 5) {
 				// 글삭제
-			    bs.delete(boardList);
+			    boardList = bs.delete(boardList);
 			} else if(select == 6) {
 				System.out.println("종료합니다.");
 				run = false;
 			}
 				
 		}
-		
+		scan.close();
 
 	}
 
